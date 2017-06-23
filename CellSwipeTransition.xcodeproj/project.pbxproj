@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26C91569003307544D82DB64 /* Pods_CellSwipeTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116300E09D702750E14D76B /* Pods_CellSwipeTransition.framework */; };
 		A3620EAE1EFD1F0D005BF594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3620EAD1EFD1F0D005BF594 /* AppDelegate.swift */; };
 		A3620EB01EFD1F0D005BF594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3620EAF1EFD1F0D005BF594 /* ViewController.swift */; };
 		A3620EB31EFD1F0D005BF594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3620EB11EFD1F0D005BF594 /* Main.storyboard */; };
@@ -21,8 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7116300E09D702750E14D76B /* Pods_CellSwipeTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellSwipeTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B7912493BD8FA59E998D742 /* Pods-CellSwipeTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellSwipeTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellSwipeTransition/Pods-CellSwipeTransition.debug.xcconfig"; sourceTree = "<group>"; };
 		A3620EAA1EFD1F0D005BF594 /* CellSwipeTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellSwipeTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3620EAD1EFD1F0D005BF594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3620EAF1EFD1F0D005BF594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,14 +28,13 @@
 		A3620EB71EFD1F0D005BF594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3620EB91EFD1F0D005BF594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3620EBF1EFDA7F2005BF594 /* CellSwipeTransition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellSwipeTransition-Bridging-Header.h"; sourceTree = "<group>"; };
-		A3620EC01EFDA7F3005BF594 /* SWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNavigationController.h; sourceTree = "<group>"; };
-		A3620EC11EFDA7F3005BF594 /* SWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNavigationController.m; sourceTree = "<group>"; };
-		A3620EC21EFDA7F3005BF594 /* SWPushAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPushAnimatedTransitioning.h; sourceTree = "<group>"; };
-		A3620EC31EFDA7F3005BF594 /* SWPushAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPushAnimatedTransitioning.m; sourceTree = "<group>"; };
+		A3620EC01EFDA7F3005BF594 /* SWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWNavigationController.h; path = SKNavigationController/SWNavigationController.h; sourceTree = "<group>"; };
+		A3620EC11EFDA7F3005BF594 /* SWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWNavigationController.m; path = SKNavigationController/SWNavigationController.m; sourceTree = "<group>"; };
+		A3620EC21EFDA7F3005BF594 /* SWPushAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWPushAnimatedTransitioning.h; path = SKNavigationController/SWPushAnimatedTransitioning.h; sourceTree = "<group>"; };
+		A3620EC31EFDA7F3005BF594 /* SWPushAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWPushAnimatedTransitioning.m; path = SKNavigationController/SWPushAnimatedTransitioning.m; sourceTree = "<group>"; };
 		A3620EC61EFDC01F005BF594 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A3620EC81EFDCA5A005BF594 /* CustomLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		A3620ECA1EFDCAC0005BF594 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		E88680ABA14CAECF716A18A2 /* Pods-CellSwipeTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellSwipeTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellSwipeTransition/Pods-CellSwipeTransition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,26 +42,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C91569003307544D82DB64 /* Pods_CellSwipeTransition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31A66A70F8D3E21E159DF967 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8B7912493BD8FA59E998D742 /* Pods-CellSwipeTransition.debug.xcconfig */,
-				E88680ABA14CAECF716A18A2 /* Pods-CellSwipeTransition.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		8BDB765D8AAA0992C9505907 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7116300E09D702750E14D76B /* Pods_CellSwipeTransition.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				A3620EAC1EFD1F0D005BF594 /* CellSwipeTransition */,
+				A3620ECD1EFDD206005BF594 /* Resources */,
 				A3620EAB1EFD1F0D005BF594 /* Products */,
-				31A66A70F8D3E21E159DF967 /* Pods */,
 				8BDB765D8AAA0992C9505907 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -96,16 +81,32 @@
 				A3620ECA1EFDCAC0005BF594 /* DetailViewController.swift */,
 				A3620EC81EFDCA5A005BF594 /* CustomLayout.swift */,
 				A3620EC61EFDC01F005BF594 /* Extensions.swift */,
-				A3620EB11EFD1F0D005BF594 /* Main.storyboard */,
-				A3620EB41EFD1F0D005BF594 /* Assets.xcassets */,
-				A3620EB61EFD1F0D005BF594 /* LaunchScreen.storyboard */,
-				A3620EB91EFD1F0D005BF594 /* Info.plist */,
+				A3620EBF1EFDA7F2005BF594 /* CellSwipeTransition-Bridging-Header.h */,
+				A3620ECC1EFDD1D8005BF594 /* SWNavigationController */,
+			);
+			path = CellSwipeTransition;
+			sourceTree = "<group>";
+		};
+		A3620ECC1EFDD1D8005BF594 /* SWNavigationController */ = {
+			isa = PBXGroup;
+			children = (
 				A3620EC01EFDA7F3005BF594 /* SWNavigationController.h */,
 				A3620EC11EFDA7F3005BF594 /* SWNavigationController.m */,
 				A3620EC21EFDA7F3005BF594 /* SWPushAnimatedTransitioning.h */,
 				A3620EC31EFDA7F3005BF594 /* SWPushAnimatedTransitioning.m */,
-				A3620EBF1EFDA7F2005BF594 /* CellSwipeTransition-Bridging-Header.h */,
 			);
+			name = SWNavigationController;
+			sourceTree = "<group>";
+		};
+		A3620ECD1EFDD206005BF594 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3620EB11EFD1F0D005BF594 /* Main.storyboard */,
+				A3620EB41EFD1F0D005BF594 /* Assets.xcassets */,
+				A3620EB61EFD1F0D005BF594 /* LaunchScreen.storyboard */,
+				A3620EB91EFD1F0D005BF594 /* Info.plist */,
+			);
+			name = Resources;
 			path = CellSwipeTransition;
 			sourceTree = "<group>";
 		};
@@ -116,12 +117,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3620EBC1EFD1F0D005BF594 /* Build configuration list for PBXNativeTarget "CellSwipeTransition" */;
 			buildPhases = (
-				BF5E80646C831796D0E9954C /* [CP] Check Pods Manifest.lock */,
 				A3620EA61EFD1F0D005BF594 /* Sources */,
 				A3620EA71EFD1F0D005BF594 /* Frameworks */,
 				A3620EA81EFD1F0D005BF594 /* Resources */,
-				622F8720AC681EB17B28F820 /* [CP] Embed Pods Frameworks */,
-				A6B8327CF2E8E06BBA1F49B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,54 +178,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		622F8720AC681EB17B28F820 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellSwipeTransition/Pods-CellSwipeTransition-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A6B8327CF2E8E06BBA1F49B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellSwipeTransition/Pods-CellSwipeTransition-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF5E80646C831796D0E9954C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3620EA61EFD1F0D005BF594 /* Sources */ = {
@@ -363,7 +313,6 @@
 		};
 		A3620EBD1EFD1F0D005BF594 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B7912493BD8FA59E998D742 /* Pods-CellSwipeTransition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -380,7 +329,6 @@
 		};
 		A3620EBE1EFD1F0D005BF594 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E88680ABA14CAECF716A18A2 /* Pods-CellSwipeTransition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
